@@ -1,0 +1,39 @@
+{
+  "name": "freezy-bee/google-drive",
+  "type": "library",
+  "description": "StreamWrapper for Google Drive",
+  "keywords": [
+    "google drive",
+    "freezy-bee",
+    "stream wrapper"
+  ],
+  "homepage": "http://freezybee.ifire.cz",
+  "license": [
+    "BSD-3-Clause",
+    "GPL-2.0",
+    "GPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Jakub Janata",
+      "homepage": "https://ifire.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "google/apiclient": "^2.0"
+  },
+  "require-dev": {
+    "nette/tester": "@dev",
+    "nette/finder": "^2.4",
+    "symfony/finder": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "FreezyBee\\GoogleDrive\\": "src/"
+    },
+    "classmap": [
+      "src/exceptions.php"
+    ]
+  }
+}
